@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+
+# Local data and caches
+backend/storage/chroma/
+*.sqlite3
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+backend/storage/app.db
